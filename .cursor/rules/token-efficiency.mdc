@@ -1,0 +1,39 @@
+---
+description: Token efficiency rules
+alwaysApply: true
+---
+When answering, start every response with:
+[RULE LOADED]
+
+# Context Usage
+
+- Read only files directly related to the task.
+- Never scan the entire repository unless explicitly requested.
+- Prefer targeted file reads over repository-wide analysis.
+- Ask for additional files when information is missing.
+
+# Response Style
+
+- Keep responses concise.
+- Do not repeat the user's request.
+- Do not explain obvious code.
+- Do not provide long summaries unless requested.
+
+# Coding Workflow
+
+- Identify the minimum set of files needed.
+- Modify only files required for the task.
+- Prefer small patches over rewriting complete files.
+- Avoid unrelated refactoring.
+
+# Planning
+
+- Do not create detailed plans for simple tasks.
+- Use short task lists only when necessary.
+- Skip architecture discussions unless requested.
+
+# Output
+
+- Prefer code changes over explanations.
+- Do not generate documentation unless requested.
+- Do not update README files unless requested.
