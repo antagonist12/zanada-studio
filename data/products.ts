@@ -2,7 +2,7 @@ export type Product = {
   id: number;
   name: string;
   price: number;
-  category: "tee" | "hoodie";
+  category: "magazine" | "pastel";
   image: string | null;
   description: string;
 };
@@ -10,34 +10,34 @@ export type Product = {
 export const products: Product[] = [
   {
     id: 1,
-    name: "Tee — Seri 01",
+    name: "Magazine — Seri 01",
     price: 150000,
-    category: "tee",
-    image: "/assets/tshirt/egypt_tshirt.png",
+    category: "magazine",
+    image: "/assets/tshirt/kyoto.png",
     description: "Kaos sablonan premium, limited edition.",
   },
   {
     id: 2,
-    name: "Tee — Seri 02",
+    name: "Magazine — Seri 02",
     price: 150000,
-    category: "tee",
-    image: "/assets/tshirt/london_tshirt.png",
+    category: "magazine",
+    image: "/assets/tshirt/tokyo.png",
     description: "Kaos sablonan premium, limited edition.",
   },
   {
     id: 3,
-    name: "Tee — Seri 03",
+    name: "Pastel — Seri 03",
     price: 165000,
-    category: "tee",
-    image: "/assets/tshirt/rome_tshirt.png",
+    category: "pastel",
+    image: "/assets/tshirt/kyoto-pastel-2.png",
     description: "Kaos sablonan premium, limited edition.",
   },
   {
     id: 4,
-    name: "Tee — Seri 04",
+    name: "Pastel — Seri 04",
     price: 165000,
-    category: "tee",
-    image: "/assets/tshirt/paris_tshirt.png",
+    category: "pastel",
+    image: "/assets/tshirt/tokyo-pastel-2.png",
     description: "Kaos sablonan premium, limited edition.",
   },
 ];

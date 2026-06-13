@@ -1,35 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  /* Warm dark base */
-  --surface: #12100d;
-  --surface-raised: #1a1712;
-  --surface-muted: #221e18;
-  --surface-warm: #2a2520;
+  /* Sleek Neutral Dark Base */
+  --surface: #09090b;
+  --surface-raised: #18181b;
+  --surface-muted: #27272a;
+  --surface-warm: #3f3f46;
 
-  --border: #3a342b;
-  --border-strong: #524a3d;
+  --border: #27272a;
+  --border-strong: #52525b;
 
-  --text: #f4efe6;
-  --text-soft: #ddd5c8;
-  --text-muted: #a69985;
-  --text-faint: #6f6558;
+  --text: #fafafa;
+  --text-soft: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --text-faint: #71717a;
 
-  /* Gold — primary accent, CTA, highlight */
-  --gold: #c4a24e;
-  --gold-soft: #dcc78a;
-  --gold-muted: #8a7540;
+  /* Primary Accent -> Crisp White / Silver (replaces Gold) */
+  --gold: #ffffff;
+  --gold-soft: #e4e4e7;
+  --gold-muted: #a1a1aa;
 
-  /* Cream — secondary accent, harga, divider, subtle contrast */
-  --cream: #f0e6d3;
-  --cream-soft: #e8d9c0;
-  --cream-muted: #c9b99a;
+  /* Secondary Accent -> Soft Gray (replaces Cream) */
+  --cream: #f4f4f5;
+  --cream-soft: #e4e4e7;
+  --cream-muted: #a1a1aa;
 
-  /* Sage — WA button, success state */
-  --sage: #7a8f72;
-  --sage-soft: #b5c4ae;
-  --sage-deep: #3d4a38;
-  --sage-dark: #252f22;
+  /* Action / WA Button -> Soft Lilac/Pastel Blue (replaces Sage) */
+  --sage: #a1a1aa;
+  --sage-soft: #e4e4e7;
+  --sage-deep: #3f3f46;
+  --sage-dark: #27272a;
 }
 
 @theme inline {

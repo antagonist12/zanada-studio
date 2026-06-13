@@ -1,5 +1,5 @@
 export const styles = {
-  footer: "w-full bg-[var(--surface-raised)] px-8 py-6 flex items-center justify-between mt-16 border-t border-[var(--border)]",
+  footer: "w-full bg-[var(--surface-raised)] px-8 py-6 flex items-center justify-between border-t border-[var(--border)]",
   brand: "text-[var(--gold)] text-sm tracking-widest uppercase font-medium",
   sub: "text-[var(--text-faint)] text-xs tracking-wider mt-1",
   socialWrapper: "flex gap-3",
