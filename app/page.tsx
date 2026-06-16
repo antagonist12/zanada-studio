@@ -1,17 +1,22 @@
 import CatalogGrid from "@/components/catalog/CatalogGrid/CatalogGrid";
+import { FadeUp } from "@/components/animations/FadeUp";
 
 export default function Home() {
   return (
     <>
       <section className="bg-[var(--surface-raised)] py-20 md:py-24 text-center border-b border-[var(--border)] overflow-hidden">
-        <div className="pointer-events-none w-8 h-px bg-[var(--border-strong)] mx-auto mb-5" />
-        <h1 className="italic text-[var(--cream)] text-4xl tracking-wide" style={{ fontFamily: "var(--font-cormorant)" }}>
-          Wear what you mean.
-        </h1>
-        <p className="text-[var(--text-faint)] text-xs tracking-widest uppercase mt-4">
-          Local craft — limited, intentional.
-        </p>
-        <div className="w-8 h-px bg-[var(--border-strong)] mx-auto mt-5" />
+        <FadeUp delay={0.1}>
+          <div className="pointer-events-none w-8 h-px bg-[var(--border-strong)] mx-auto mb-5" />
+          <h1 className="italic text-[var(--cream)] text-4xl tracking-wide" style={{ fontFamily: "var(--font-cormorant)" }}>
+            Wear what you mean.
+          </h1>
+        </FadeUp>
+        <FadeUp delay={0.3}>
+          <p className="text-[var(--text-faint)] text-xs tracking-widest uppercase mt-4">
+            Local craft — limited, intentional.
+          </p>
+          <div className="w-8 h-px bg-[var(--border-strong)] mx-auto mt-5" />
+        </FadeUp>
       </section>
 
       {/* <section className="relative bg-surface-raised py-20 md:py-24 text-center border-b border-border overflow-hidden">

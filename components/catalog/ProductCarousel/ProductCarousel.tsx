@@ -7,11 +7,10 @@ import ProductCard from "../ProductCard/ProductCard";
 type Props = {
   products: Product[];
   waNumber: string;
-  designStyle?: "magazine" | "pastel";
   interval?: number;
 };
 
-export default function ProductCarousel({ products, waNumber, designStyle = "pastel", interval = 5000 }: Props) {
+export default function ProductCarousel({ products, waNumber, interval = 5000 }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -49,7 +48,6 @@ export default function ProductCarousel({ products, waNumber, designStyle = "pas
             <ProductCard
               product={product}
               waNumber={waNumber}
-              designStyle={designStyle}
             />
           </div>
         ))}
